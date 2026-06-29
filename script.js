@@ -1150,46 +1150,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
     productListContainer.innerHTML = "";
 
-    filteredProducts.forEach((product) => {
-      const card = document.createElement("div");
-
-      if (product.type === "Promo") {
-        card.className = "product-card promo-card";
-        card.innerHTML = `
-                <div class="info">
-                    <div class="promo-icon">🎄</div>
-                    <div class="name">${product.name}</div>
-                    <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
-                </div>
-            `;
-      } else {
-        card.className = "product-card product-item-card";
+   filteredProducts.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'product-card product-item-card';
         card.dataset.productId = product.id;
 
-        if (product.clickable === false) {
-          card.classList.add("unclickable");
-        }
+        // Vérification de la présence d'un média
+        const hasMedia = product.image && product.image !== '';
+        
+        // Style conditionnel pour centrer le contenu si pas d'image
+        const infoStyle = !hasMedia ? 'display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;' : '';
+        const nameStyle = !hasMedia ? 'font-size: 1.2rem; height: auto; margin-bottom: 10px;' : '';
 
-        let flagHTML = product.flag
-          ? `<span class="product-flag">${product.flag}</span>`
-          : "";
-
-        // LIGNE AJOUTÉE ICI : On affiche l'image QUE si elle n'est pas vide
-        let imgHTML = product.image
-          ? `<img src="${product.image}" alt="${product.name}">`
-          : "";
+        let imgHTML = hasMedia ? `<img src="${product.image}" alt="${product.name}">` : '';
 
         card.innerHTML = `
-                ${imgHTML}
-                <div class="info" style="${!product.image ? "" : ""}">
-                    <div class="name" style="${!product.image ? "font-size: 1.2rem;" : ""}">${product.name} ${flagHTML}</div>
-                    <div class="farm" style="${!product.image ? "font-size: 1rem; margin-bottom: 10px;" : ""}">${product.farm}</div>
-                    <div class="price" style="${!product.image ? "" : ""}">${typeof product.tarifs[0].price === "number" ? product.tarifs[0].price.toFixed(2) + "€" : product.tarifs[0].price}</div>
-                </div>
-            `;
-      }
+            ${imgHTML}
+            <div class="info" style="${infoStyle}">
+                <div class="name" style="${nameStyle}">${product.name}</div>
+                <div class="farm" style="width: 100%; text-align: center;">${product.farm}</div>
+                <div class="price">${typeof product.tarifs[0].price === 'number' ? product.tarifs[0].price.toFixed(2) + '€' : product.tarifs[0].price}</div>
+            </div>
+        `;
 
-      productListContainer.appendChild(card);
+        productListContainer.appendChild(card);
     });
   }
 
