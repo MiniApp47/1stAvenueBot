@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- DONNÉES DE L'APPLICATION (V2.4 - FORMATAGE STRICT DES TARIFS) ---
   const appData = [
     // --- Catégorie 1: HASH ---
-    {
+   /* {
       id: "HASH",
       name: "🍪 Hash 🍪",
       farm: "",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: " 🍪 Hash 🍪",
       image: "CategHash.png",
       directToProducts: false,
-      farms: [
+      farms: [ 
         {
           id: "MOUNTAIN_MEDS",
           name: "🅼🅾🆄🅽🆃🅰🅸🅽 🅼🅴🅳🆂 🇺🇸",
@@ -481,8 +481,8 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-      ],
-    },
+       ],
+    }*/
 
     // --- Catégorie 2: FLEURS ---
     {
@@ -833,7 +833,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     // --- Catégorie 3: WPFF ---
-    {
+   /*  {
       id: "WPFF",
       name: " 💎 Wpff 💎",
       farm: "",
@@ -881,7 +881,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       ],
-    },
+    }, */
   ];
 
   // --- VARIABLES D'ÉTAT ---
