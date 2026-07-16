@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- DONNÉES DE L'APPLICATION (V2.4 - FORMATAGE STRICT DES TARIFS) ---
   const appData = [
     // --- Catégorie 1: HASH ---
-   /* {
+    {
       id: "HASH",
       name: "🍪 Hash 🍪",
       farm: "",
@@ -67,7 +67,83 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: " 🍪 Hash 🍪",
       image: "CategHash.png",
       directToProducts: false,
-      farms: [ 
+      farms: [
+        {
+          id: "SELECTION_1ST SEMIDRY",
+          name: "SEMI-DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
+          image: "",
+          badgeText: "SEMI-DRY",
+          products: [
+            {
+              id: "Semi Dry 🏜️",
+              name: "Semi Dry 🏜️",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductSD.png",
+              video: "VideoSD.mp4",
+              description:
+                  "🏜️ Une résine semi-dry soigneusement travaillée, avec une texture souple et légèrement grasse. Son profil développe des notes terreuses, épicées et légèrement sucrées, avec une finition douce et persistante.",
+              tarifs: [
+                { weight: "100g", price: 260.0 },
+                { weight: "500g", price: 1200.0 },
+                { weight: "1kg", price: 2200.0 },
+              ],
+            },
+          ],
+        },
+         {
+          id: "SELECTION_1ST",
+          name: "DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
+          image: "",
+          badgeText: "DRY",
+          products: [
+            {
+              id: "Label vert",
+              name: "Label vert 🟢",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductLV.png",
+              video: "VideoLV.mp4",
+              description:
+                  "🟢 Dry 90u soigneusement sélectionné, avec une texture homogène, souple et légèrement grasse. Son profil aromatique développe des notes terreuses et boisées, accompagnées d’une touche épicée et légèrement sucrée. Une résine équilibrée avec une finition douce et persistante.",
+              tarifs: [
+                { weight: "100g", price: 370.0 },
+                { weight: "500g", price: 1600.0 },
+                { weight: "1kg", price: 2800.0 },
+              ],
+            },
+            {
+              id: "Label rouge",
+              name: "Label rouge 🔴",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductLR.png",
+              video: "VideoLR.mp4",
+              description:
+                  "🔴 Dry 90/120u premium à la texture souple, grasse et parfaitement homogène. Il dévoile un profil aromatique puissant mêlant des notes terreuses, épicées et légèrement gazeuses. Une sélection intense et raffinée avec une finition riche et persistante.",
+              tarifs: [
+                { weight: "100g", price: 400.0 },
+                { weight: "500g", price: 1700.0 },
+                { weight: "1kg", price: 3000.0 },
+              ],
+            },
+            {
+              id: "Label jaune",
+              name: "Label jaune 🟡",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductLJ.png",
+              video: "VideoLJ.mp4",
+              description:
+                  "🟡 Une sélection dry au profil équilibré, reconnaissable à sa texture homogène et à son aspect doré. Des arômes terreux et légèrement fruités accompagnés d’une touche épicée en fin de bouche.",
+              tarifs: [
+                { weight: "100g", price: 350.0 },
+                { weight: "500g", price: 1500.0 },
+                { weight: "1kg", price: 2500.0 },
+              ],
+            },
+          ],
+        },/*
         {
           id: "MOUNTAIN_MEDS",
           name: "🅼🅾🆄🅽🆃🅰🅸🅽 🅼🅴🅳🆂 🇺🇸",
@@ -480,9 +556,9 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        },
+        },*/
        ],
-    }*/
+    },
 
     // --- Catégorie 2: FLEURS ---
     {
@@ -501,6 +577,36 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: "Grow / CaliSpain",
           products: [
             {
+              id: "Blue Berry Muffin",
+              name: "Blue Berry Muffin 🫐",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductBBM.png",
+              video: "VideoBBM.mov",
+              description:
+                 "🫐 Une fleur gourmande au parfum intense de myrtille et de fruits rouges, accompagné de notes crémeuses rappelant un muffin fraîchement préparé. Des têtes compactes et résineuses avec une finition douce et sucrée.",
+              tarifs: [
+                { weight: "100g", price: 400.0 },
+                { weight: "500g", price: 1800.0 },
+                { weight: "1kg", price: 3500.0 },
+              ],
+            },
+            {
+              id: "Space Runtz",
+              name: "Space Runtz 🛰",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductSR.jpg",
+              video: "VideoSR.mov",
+              description:
+                 "🛰 Une variété moderne au profil très fruité et gourmand. Elle dévoile des notes de bonbons, de fruits rouges et d’agrumes, accompagnées d’une légère touche crémeuse et gazeuse. Des têtes compactes, colorées et couvertes de résine.",
+              tarifs: [
+                { weight: "100g", price: 400.0 },
+                { weight: "500g", price: 1800.0 },
+                { weight: "1kg", price: 3500.0 },
+              ],
+            },
+            {
               id: "Amne",
               name: "Amnesia Haze 😶‍🌫🍃",
               farm: "Trapnumberz 🎸",
@@ -512,7 +618,7 @@ document.addEventListener("DOMContentLoaded", function () {
               tarifs: [
                 { weight: "100g", price: 300.0 },
                 { weight: "500g", price: 1400.0 },
-                { weight: "1kg", price: 2500.0 },
+                { weight: "1kg", price: 2200.0 },
               ],
             },
           ],
