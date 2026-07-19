@@ -69,6 +69,31 @@ document.addEventListener("DOMContentLoaded", function () {
       directToProducts: false,
       farms: [
         {
+          id: " FROZEN",
+          name: "🧙‍♀️ FROZEN 🧙‍♀️",
+          image: "",
+          badgeText: "FROZEN",
+          products: [
+            {
+              id: "🌌 BLUE MAGIC FROZEN 🌌",
+              name: "🌌 BLUE MAGIC FROZEN 🌌",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductBMF.png",
+              video: "VideoBMF.mov",
+              description:
+                  "Strain disponible sur le blue magic \n\n Forbidden Aglio \n Sumo Shokka\n Double zucar\n Hash cherry",
+              tarifs: [
+                { weight: "5g", price: 90.0 },
+                { weight: "10g", price: 150.0 },
+                { weight: "25g", price: 320.0 },
+                { weight: "50g", price: 600.0 },
+                { weight: "100g", price: 1100.0 },
+              ],
+            },
+          ],
+        },
+        {
           id: "SELECTION_1ST SEMIDRY",
           name: "SEMI-DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
           image: "",
