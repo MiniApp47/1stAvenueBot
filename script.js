@@ -75,6 +75,26 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: "FROZEN",
           products: [
             {
+              id: " Yellow stone ",
+              name: "Yellow stone 🤠",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductYS.jpg",
+videos: [
+  "VideoYS.mov",
+  "VideoYS2.mov"
+],
+              description:
+                  "Strain disponible sur le Yellow stone \n\n SOUR DIESEL \n BLUE DREAM ",
+              tarifs: [
+                { weight: "5g", price: 90.0 },
+                { weight: "10g", price: 150.0 },
+                { weight: "25g", price: 320.0 },
+                { weight: "50g", price: 600.0 },
+                { weight: "100g", price: 1100.0 },
+              ],
+            },
+            {
               id: "🌌 BLUE MAGIC FROZEN 🌌",
               name: "🌌 BLUE MAGIC FROZEN 🌌",
               farm: "1st Avenue 🛩",
@@ -596,10 +616,10 @@ document.addEventListener("DOMContentLoaded", function () {
       directToProducts: false,
       farms: [
         {
-          id: "Amnesia",
-          name: "Amnesia 🌷",
+          id: "Spali",
+          name: "💃 Spali 💃",
           image: "",
-          badgeText: "Grow / CaliSpain",
+          badgeText: "",
           products: [
             {
               id: "Blue Berry Muffin",
@@ -631,6 +651,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "1kg", price: 3500.0 },
               ],
             },
+          ],
+        },
+        {
+          id: "Amnesia",
+          name: "Amnesia 🌷",
+          image: "",
+          badgeText: "Grow / CaliSpain",
+          products: [
             {
               id: "Amne",
               name: "Amnesia Haze 😶‍🌫🍃",
