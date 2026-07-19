@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
               id: " Yellow stone ",
               name: "Yellow stone 🤠",
-              farm: "1st Avenue 🛩",
+              farm: "🎗 Yellow stone Farm 🎗",
               type: "Hash",
               image: "ProductYS.jpg",
 videos: [
@@ -85,13 +85,12 @@ videos: [
   "VideoYS2.mov"
 ],
               description:
-                  "Strain disponible sur le Yellow stone \n\n SOUR DIESEL \n BLUE DREAM ",
+                  "Strain disponible sur le Yellow stone \n\n SOUR DIESEL \n BLUE DREAM \n\n [ 50g ( 1 plaque ) 100g ( 2 plaque mix ) ]",
               tarifs: [
-                { weight: "5g", price: 90.0 },
-                { weight: "10g", price: 150.0 },
-                { weight: "25g", price: 320.0 },
-                { weight: "50g", price: 600.0 },
-                { weight: "100g", price: 1100.0 },
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 270.0 },
+                { weight: "50g", price: 450.0 },
+                { weight: "100g", price: 850.0 },
               ],
             },
             {
