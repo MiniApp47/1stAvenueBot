@@ -682,6 +682,44 @@ videos: [
           badgeText: "Grow / CaliSpain",
           products: [
             {
+              id: "Zkitlles",
+              name: "Zkitlles 🍫",
+              farm: "Trapnumberz 🎸",
+              type: "Weed",
+              image: "ProductZK.png",
+              video: "VideoZK.mov",
+              description:
+                "",
+              tarifs: [
+                { weight: "3.5g", price: 35.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 200.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+            {
+              id: "Candy Fumes",
+              name: "Candy Fumes 🍬🚬",
+              farm: "Trapnumberz 🎸",
+              type: "Weed",
+              image: "ProductCF.png",
+              video: "VideoCF.mov",
+              description:
+                "",
+              tarifs: [
+                { weight: "3.5g", price: 35.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 200.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+            {
               id: "TN_1",
               name: "Cream Smoothie 🍦🥤",
               farm: "Trapnumberz 🎸",
@@ -743,8 +781,8 @@ videos: [
               name: "Rs11 🌈⛽",
               farm: "Trapnumberz 🎸",
               type: "Weed",
-              image: "ProductTrap.jpg",
-              video: "",
+              image: "ProductRS.png",
+              video: "VideoRS.mov",
               description:
                 "🇬La RS11 (Rainbow Sherbert #11) est un hybride à dominance indica issu du croisement entre la Pink Guava et l'OZK. Très prisée pour sa qualité \"exotique\" venue de Californie, elle est célèbre pour son profil aromatique fruité unique et son effet parfaitement équilibré. [1, 2, 3, 4]\n\n 🧬 Caractéristiques et Génétique\n Génétique : Hybride (Pink Guava × OZK).\n Taux de THC : Élevé, oscillant généralement entre 20 % et 27 % selon la culture.\n Aspect visuel : Des têtes denses et compactes, souvent parsemées de nuances vert-lime et bleu-vert, le tout enrobé de trichomes brillants. [1, 2, 3, 4, 5]\n\n 🍓 Arômes et Saveurs\n La RS11 offre une expérience gustative complexe, très recherchée par les connaisseurs : [1, 2, 3, 4]\n Nez : Un mélange de fruits sucrés, de bonbons acidulés et de notes crémeux, avec une subtile touche terreuse et de pin en arrière-plan.\n Goût : Une fumée douce et fruitée qui rappelle les agrumes, les baies et une légère touche de \"gas\" (carburant) en fin de bouche. [1, 2, 3, 4, 5]\n\n 💨 Effets\n Cette variété est particulièrement appréciée pour son \"high\" équilibré : [1, 2, 3, 4]\n Mental : Elle procure une douce sensation de bien-être, une élévation de l'humeur et une clarté mentale qui vous garde alerte.\n Physique : Une relaxation corporelle s'installe progressivement, apaisant les tensions sans provoquer de sédation trop lourde",
               tarifs: [
@@ -838,8 +876,8 @@ videos: [
               name: "Prodigy 🌟🔥",
               farm: "Trapnumberz 🎸",
               type: "Weed",
-              image: "ProductTrap.jpg",
-              video: "",
+              image: "ProductPO.png",
+              video: "VideoPO.mov",
               description:
                 "La variété de cannabis Prodigy est un hybride à forte dominance sativa (environ 90 %) connu pour ses effets énergisants et créatifs. Les utilisateurs l'apprécient pour son high cérébral, ses saveurs citronnées et terreuses, et son taux élevé de THC, ce qui la rend idéale pour un regain de concentration ou d'énergie durant la journée. [1, 2]\n\n 🌿 Profil et Effets\n Génétique : Hybride à dominance sativa (90/10).\n Arôme & Goût : Un mélange d'agrumes, de diesel et de notes terreuses ou de pin.\n Taux de THC : Élevé (souvent autour de 25-28 %).\n Effets : Procure une sensation euphorique, élévatrice et stimulante. Elle est parfaite pour chasser le stress, vaincre la fatigue et stimuler la créativité ou les tâches nécessitant de la concentration. [1, 2]\n\n ⚠️ Précautions et Avis\n Effets secondaires : Comme beaucoup de sativas fortes, elle peut provoquer une sécheresse buccale ou oculaire. Les consommateurs sujets à l'anxiété devraient l'aborder avec modération en raison de sa puissance.\n Consensus : Très populaire auprès des consommateurs récréatifs et médicaux cherchant un coup de boost sans s'endormir. [1]",
               tarifs: [
@@ -857,8 +895,8 @@ videos: [
               name: "Cheese x Zunami 🧀🌊",
               farm: "Trapnumberz 🎸",
               type: "Weed",
-              image: "ProductTrap.jpg",
-              video: "",
+              image: "ProductCZ.png",
+              video: "VideoCZ.mov",
               description:
                 "The Cheese x Zunami cross, officially released as Zkunk by Grounded Genetics, is a highly acclaimed hybrid that marries old-school UK skunk with modern, fruity dessert genetics. \n kleine knospe\n\n 🧬 Génétique\n Parentale : Exodus Cheese (phénotype Skunk #1 vieux de 30 ans) × Zunami (Zkittlez × [Gelato 41 x Sherb BX1]).\n Dominance : Hybride, bien que la plupart des phénotypes soient fortement dominés par les traits et la structure de l'Exodus Cheese. \n\n 🍃 Arômes et Goût\n L\'odeur est extrêmement piquante et terreuse, fidèle au profil aromatique classique du fromage \"Cheese\".\n Les gènes de la Zunami adoucissent la fumée, ajoutant des nuances crémeuses, sucrées et légèrement fruitées à l'expiration. kleine knospe +1\n\n  🧠 Effets\n Offre une montée euphorique et élévatrice qui équilibre la lourdeur physique et la relaxation.\n Très appréciée pour détendre le corps tout en gardant un esprit alerte, ce qui la rend utile pour soulager le stress ou stimuler l'humeur. House of Seeds +2\n\n 🌱 Culture\n Temps de floraison : 9 à 10 semaines.",
               tarifs: [
@@ -876,8 +914,8 @@ videos: [
               name: "Emerz 💎🍃",
               farm: "Trapnumberz 🎸",
               type: "Weed",
-              image: "ProductTrap.jpg",
-              video: "",
+              image: "ProductEM.png",
+              video: "VideoEM.mov",
               description:
                 "L'EmergenZ (parfois appelée Emergen-C) est un hybride (souvent à dominance sativa) issu du croisement entre l'Orange Push Pop et la Sunset Sherbet. Elle est réputée pour ses puissantes saveurs d'agrumes, son taux de THC élevé—souvent entre 25 % et plus de 30 %—et ses effets énergisants. [1, 2, 3]\n\n 🍋 Profil et Arômes\n Goût et Odeur : Son profil de terpènes (dominé par le limonène et le caryophyllène) rappelle une orange fraîchement pressée ou le soda Orange Crush. On y détecte des notes crémeuses, de pamplemousse et parfois une légère touche de pin.\n Aspect : Les têtes sont souvent denses, de couleur vert émeraude, recouvertes d'une épaisse couche de trichomes dorés. [1, 2, 3, 4]\n\n ⚡ Effets et Utilisation\n Sensation : Connue pour un effet \"coup de boost\", elle procure rapidement une montée d'énergie cérébrale. Elle favorise la concentration, la créativité et l'humeur euphorique.\n Utilisation médicale : Très prisée pour combattre la fatigue, le stress et les symptômes de dépression.[1, 2, 4, 5]\n\n ⚖️ Avis de la Communauté\n Points forts : Les consommateurs apprécient particulièrement son goût sucré et onctueux, ainsi que sa capacité à stimuler la journée sans provoquer d'effet sédatif lourd. [1, 2, 3, 4]\n Mises en garde : En raison de son taux de THC extrême, les utilisateurs inexpérimentés devraient y aller doucement.",
               tarifs: [
@@ -971,8 +1009,8 @@ videos: [
               name: "Pineapple cherry cookie 🍍🍒🍪",
               farm: "Trapnumberz 🎸",
               type: "Weed",
-              image: "ProductTrap.jpg",
-              video: "",
+              image: "ProductPCC.png",
+              video: "VideoPCC.mov",
               description:
                 "La Pineapple Cherry Cookies est un hybride à dominante indica issu du croisement entre des génétiques tropicales et des variétés de la famille \"Cookies\". Elle est très appréciée par les connaisseurs pour son profil aromatique fruité et ses effets à la fois relaxants et mentalement stimulants. \n Theory Wellness +1\n\n 🍍 Arômes et Goût\n Saveur : Des notes douces de cerise et de fruits tropicaux (comme l'ananas) se mêlent à un arrière-plan terreux classique des variétés Cookies. Theory Wellness +1\n\n Arôme : Un parfum gourmand qui rappelle les pâtisseries aux fruits. Les effluves de cerise et d'ananas sont généralement dominantes à l'ouverture du sachet. Theory Wellness +1\n\n 💨 Effets\n Niveau d'énergie : C'est une variété qui offre une belle euphorie cérébrale tout en évitant l'effet \"canapé\".\n Bien-être : Les utilisateurs rapportent une réduction significative du stress et de la fatigue quotidienne.\n Utilisation : Idéale pour les activités créatives, les sorties entre amis ou simplement pour se détendre en fin de journée sans s'endormir immédiatement..",
               tarifs: [
