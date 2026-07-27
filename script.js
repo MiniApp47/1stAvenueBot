@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
               image: "ProductPS.jpg",
               video: "",
               description:
-                  "⚠️ En precommande seulement ⚠️ \n Dates de livraison le 04/08/0206 🚩",
+                  "⚠️ En precommande seulement ⚠️ \n\n Saison 2026/2027\n Grape gaz 🍇⛽️\n Tropicana cookies 🥭🍉🍇🍪\n Forbidden Fruit 🍇🍇🍇\n Rotten Papaya 🥭🥭🥭 \n\n  Dates de livraison le 04/08/0206 🚩",
               tarifs: [
                 { weight: "10g", price: 130.0 },
                 { weight: "25g", price: 270.0 },
