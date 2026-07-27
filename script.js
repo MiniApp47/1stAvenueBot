@@ -69,6 +69,30 @@ document.addEventListener("DOMContentLoaded", function () {
       directToProducts: false,
       farms: [
         {
+          id: "Precommande",
+          name: "📦 PRECOMMANDE 📦",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "PlasmaStatic",
+              name: "🔮 PlasmaStatic 🔮",
+              farm: "👨‍🌾 CFF",
+              type: "Hash",
+              image: "ProductPS.jpg",
+              video: "",
+              description:
+                  "⚠️ En precommande seulement ⚠️ \n Dates de livraison le 04/08/0206 🚩",
+              tarifs: [
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 270.0 },
+                { weight: "50g", price: 450.0 },
+                { weight: "100g", price: 850.0 },
+              ],
+            },
+          ],
+        },
+        {
           id: " FROZEN",
           name: "🧙‍♀️ FROZEN 🧙‍♀️",
           image: "",
