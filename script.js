@@ -69,6 +69,31 @@ document.addEventListener("DOMContentLoaded", function () {
       directToProducts: false,
       farms: [
         {
+          id: "VVS static premium ⚡️ ",
+          name: "VVS static premium ⚡️ ",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Superboof 🍇🍉🍇🍉🍇",
+              name: "Superboof 🍇🍉🍇🍉🍇",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductSB.png",
+              video: "VideoSB.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 270.0 },
+                { weight: "50g", price: 450.0 },
+                { weight: "100g", price: 800.0 },
+                { weight: "500g", price: 3500.0 },
+              ],
+            },
+          ],
+        },
+        {
           id: "Precommande",
           name: "📦 PRECOMMANDE 📦",
           image: "",
