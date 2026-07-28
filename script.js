@@ -670,6 +670,22 @@ videos: [
           badgeText: "",
           products: [
             {
+              id: "Gary Payton",
+              name: "Gary Payton 🏄🏿",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductGP.png",
+              video: "VideoGP.mov",
+              description:
+                 "",
+              tarifs: [
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 350.0 },
+                { weight: "500g", price: 1700.0 },
+                { weight: "1kg", price: 3000.0 },
+              ],
+            },
+            {
               id: "Blue Berry Muffin",
               name: "Blue Berry Muffin 🫐",
               farm: "👨‍🌾 No Farm 👨‍🌾",
