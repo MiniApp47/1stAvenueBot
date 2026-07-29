@@ -58,6 +58,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // --- DONNÉES DE L'APPLICATION (V2.4 - FORMATAGE STRICT DES TARIFS) ---
   const appData = [
+     // --- Catégorie 3: WPFF ---
+    {
+      id: "WPFF",
+      name: " 💎 Wpff 💎",
+      farm: "",
+      type: "WPFF",
+      quality: " 💎 Wpff 💎",
+      image: "CategWpff.png",
+      directToProducts: false,
+      farms: [
+        {
+          id: "SPACEFARM",
+          name: "🆂🅿🅰🅲🅴🅵🅰🆁🅼",
+          image: "",
+          badgeText: "WPFF",
+          products: [
+            {
+              id: "SF_1",
+              name: "🍇 Wpff 45𝐔",
+              farm: "🚀 Spacefarm",
+              type: "WPFF",
+              image: "Product45.png",
+              video: "Video45.mov",
+              description:
+                "Strain Disponible : Plaque de 25g \n -Strawpicana 🍉🍓🍌\n -weetie Pie 🍭🍭🥧🥧\n -Rainbow boof 🍭🍇🍇 \n\n Mix disponible à partir de 5g",
+              tarifs: [
+                { weight: "1g", price: 35.0 },
+                { weight: "5g", price: 150.0 },
+                { weight: "10g", price: 270.0 },
+                { weight: "25g", price: 525.0 },
+                { weight: "50g", price: 1200.0 },
+                { weight: "100g", price: 2100.0 },
+              ],
+            },
+          ],
+        },
+      ],
+    },
     // --- Catégorie 1: HASH ---
     {
       id: "HASH",
@@ -1092,57 +1130,6 @@ videos: [
         },
       ],
     },
-
-    // --- Catégorie 3: WPFF ---
-   /*  {
-      id: "WPFF",
-      name: " 💎 Wpff 💎",
-      farm: "",
-      type: "WPFF",
-      quality: " 💎 Wpff 💎",
-      image: "CategWpff.png",
-      directToProducts: false,
-      farms: [
-        {
-          id: "SPACEFARM",
-          name: "🆂🅿🅰🅲🅴🅵🅰🆁🅼",
-          image: "",
-          badgeText: "WPFF",
-          products: [
-            {
-              id: "SF_1",
-              name: "🍇 Dulce de uva 45𝐔",
-              farm: "🚀 Spacefarm",
-              type: "WPFF",
-              image: "Product45.png",
-              video: "Video45.mov",
-              description:
-                "La variété Dulce de Uva (qui signifie « raisin doux » en espagnol) est un hybride à dominance indica (environ 60% indica / 40% sativa) issu du croisement entre la Grape Pie et la OG Kush. Elle est particulièrement réputée pour son profil aromatique intense de bonbon au raisin, sa belle production de résine et ses effets profondément relaxants. [1, 2]\n\n 🍇 Arômes et Saveurs\n Le nom de cette variété reflète parfaitement son goût. [1]\n Arôme : Un mélange sucré et fruité de raisins mûrs et de baies, avec des notes terreuses et épicées héritées de sa lignée OG Kush.\n Goût : Dès la première bouffée, vous remarquerez des notes douces de raisin, suivies d'une expiration crémeuse et biscuitée avec une finale épicée. [1, 2]\n\n ✨ Effets\n La Dulce de Uva offre un high parfaitement équilibré pour se détendre sans être totalement assommé. [1, 2]\n Montée : Elle commence par une douce sensation d'euphorie et de bonheur qui améliore l'humeur. [1, 2]\n Descente : Elle évolue rapidement vers une relaxation physique profonde, idéale pour apaiser les tensions musculaires et décompresser après une longue journée. [1]\n Usage médical : De nombreux utilisateurs l'apprécient pour aider à soulager le stress, l'anxiété, la dépression et les douleurs chroniques. [1, 2]",
-              tarifs: [
-                { weight: "1g", price: 35.0 },
-                { weight: "5g", price: 150.0 },
-                { weight: "10g", price: 270.0 },
-              ],
-            },
-            {
-              id: "SF_2",
-              name: "🍓 Strawpicanna 90𝐔",
-              farm: "🚀 Spacefarm",
-              type: "WPFF",
-              image: "Product90.png",
-              video: "Video90.mov",
-              description:
-                "Strawpicanna (croisement entre Strawberry Banana et Tropicanna Cookies) est une variété hybride très réputée pour son profil terpénique fruité et ses effets énergisants. Elle offre une expérience gustative intense de fraises crémeuses et d'agrumes épicés, tout en procurant un effet cérébral euphorique, idéal pour socialiser ou rester créatif sans sombrer dans l'effet \"canapé\". [1, 2]\n\n 🧬 Généalogie et Profil\n Génétique : Hybride issu de Strawberry Banana (Strawnana) et de Tropicanna Cookies.\n\n Dominance : Hybride équilibré (Indica/Sativa). [1, 2, 3, 4, 5]\n\n 🌿 Arômes et Goût\n Saveur : Fidèle à son nom, elle propose un goût lourd de fruits rouges, principalement la fraise, combiné à des notes tropicales et une touche épicée. [1, 2]\n Terpènes principaux : Myrcène, Humulène, Limonène, Caryophyllène. [1, 2]\n Aspect : Les fleurs sont souvent allongées, d'un vert très foncé avec des reflets violets et une épaisse couche de résine brillante, ce qui en fait une excellente candidate pour les extractions. [1]\n\n ⚡ Effets et Utilisation\n Effets : Un \"high\" cérébral dynamique et enjoué. Les consommateurs décrivent un sentiment de bonheur pétillant, idéal pour les activités de jour ou les moments de socialisation. [1, 2]\n Utilisation thérapeutique : Très appréciée pour lutter contre le stress ou la fatigue, car elle stimule l'humeur sans provoquer de sédation. [1, 2].",
-              tarifs: [
-                { weight: "1g", price: 50.0 },
-                { weight: "5g", price: 225.0 },
-                { weight: "10g", price: 400.0 },
-              ],
-            },
-          ],
-        },
-      ],
-    }, */
   ];
 
   // --- VARIABLES D'ÉTAT ---
