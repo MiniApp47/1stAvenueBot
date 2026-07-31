@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-        {
+        /* {
           id: "Precommande",
           name: "📦 PRECOMMANDE 📦",
           image: "",
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        },
+        }, */
         {
           id: " FROZEN",
           name: "🧙‍♀️ FROZEN 🧙‍♀️",
