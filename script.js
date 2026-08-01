@@ -729,7 +729,7 @@ videos: [
               farm: "👨‍🌾 No Farm 👨‍🌾",
               type: "Weed",
               image: "ProductBBM.png",
-              video: "VideoBBM.mov",
+              video: "VideoBBM.mp4",
               description:
                  "🫐 Une fleur gourmande au parfum intense de myrtille et de fruits rouges, accompagné de notes crémeuses rappelant un muffin fraîchement préparé. Des têtes compactes et résineuses avec une finition douce et sucrée.",
               tarifs: [
