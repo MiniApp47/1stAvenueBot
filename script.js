@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "",
           badgeText: "FROZEN",
           products: [
-            {
+           /*  {
               id: " Yellow stone ",
               name: "Yellow stone 🤠",
               farm: "🎗 Yellow stone Farm 🎗",
@@ -179,7 +179,7 @@ videos: [
                 { weight: "50g", price: 450.0 },
                 { weight: "100g", price: 850.0 },
               ],
-            },
+            }, */
             {
               id: "🌌 BLUE MAGIC FROZEN 🌌",
               name: "🌌 BLUE MAGIC FROZEN 🌌",
@@ -228,6 +228,22 @@ videos: [
           image: "",
           badgeText: "DRY",
           products: [
+            {
+              id: "🍎 Forbidden Fruit 🍎",
+              name: "🍎 Forbidden Fruit 🍎",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductFFF.jpg",
+              video: "VideoFFF.mp4",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "25g", price: 200.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 600.0 },
+              ],
+            },
             {
               id: "Label vert",
               name: "Label vert 🟢",
@@ -708,6 +724,51 @@ videos: [
           badgeText: "",
           products: [
             {
+              id: "Tropicana Cookies",
+              name: "Tropicana Cookies 🍪",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductTC.png",
+              video: "VideoTC.mp4",
+              description:
+                 "",
+              tarifs: [
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+              ],
+            },
+            {
+              id: "Zoap",
+              name: "Zoap 👽",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductZ.png",
+              video: "VideoZ.mp4",
+              description:
+                 "",
+              tarifs: [
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+              ],
+            },
+            {
+              id: "Guava Mintz",
+              name: "Guava Mintz 🌶️",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductGM.png",
+              video: "VideoGM.mp4",
+              description:
+                 "",
+              tarifs: [
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+              ],
+            },
+            {
               id: "Gary Payton",
               name: "Gary Payton 🏄🏿",
               farm: "👨‍🌾 No Farm 👨‍🌾",
@@ -723,7 +784,7 @@ videos: [
                 { weight: "1kg", price: 3000.0 },
               ],
             },
-            {
+            /* {
               id: "Blue Berry Muffin",
               name: "Blue Berry Muffin 🫐",
               farm: "👨‍🌾 No Farm 👨‍🌾",
@@ -752,7 +813,7 @@ videos: [
                 { weight: "500g", price: 1800.0 },
                 { weight: "1kg", price: 3500.0 },
               ],
-            },
+            }, */
           ],
         },
         {
