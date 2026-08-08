@@ -229,6 +229,38 @@ videos: [
           badgeText: "DRY",
           products: [
             {
+              id: "Forbidden Zkitlles",
+              name: "Forbidden Zkitlles ⛵",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "",
+              video: "",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "25g", price: 200.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 600.0 },
+              ],
+            },
+            {
+              id: "Muel Fuel",
+              name: "Muel Fuel ⛽",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "",
+              video: "",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "25g", price: 200.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 600.0 },
+              ],
+            },
+            {
               id: "🍎 Forbidden Fruit 🍎",
               name: "🍎 Forbidden Fruit 🍎",
               farm: "👨‍🌾 VVS",
