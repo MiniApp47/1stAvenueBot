@@ -749,6 +749,48 @@ videos: [
       image: "CategFleurs.png",
       directToProducts: false,
       farms: [
+         {
+          id: "CaliUs",
+          name: "Cali US 🇺🇸",
+          image: "",
+          badgeText: "Unbranded",
+          products: [
+            {
+              id: "White Runtz",
+              name: "White Runtz 🍧",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductLC.png",
+              video: "VideoLC.mp4",
+              description:
+                "",
+              tarifs: [
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 250.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "1 poung (448G)", price: 1900.0 },
+              ],
+            },
+            {
+              id: "Latto cake",
+              name: "Latto cake 🍨",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductLC.png",
+              video: "VideoLC.mp4",
+              description:
+                "",
+              tarifs: [
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 250.0 },
+                { weight: "50g", price: 350.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "1 poung (448G)", price: 1900.0 },
+              ],
+            },
+          ],
+        },
         {
           id: "Spali",
           name: "💃 Spali 💃",
