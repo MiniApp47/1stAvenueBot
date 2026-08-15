@@ -161,6 +161,24 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "",
           badgeText: "FROZEN",
           products: [
+            {
+              id: "Plasma Frozen ",
+              name: "Plasma Frozen 🔮",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductPF.png",
+              video: "VideoPF.mov",
+              description:
+                  "Plasma Frozen Premium Frozen X PlasmaStatic \n\n Strain disponible sur le blue magic \n\n Runtz x Gaz Mintz \n Milkshake \n Grape gaz",
+              tarifs: [
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 270.0 },
+                { weight: "50g", price: 450.0 },
+                { weight: "100g", price: 750.0 },
+                { weight: "500g", price: 3500.0 },
+                { weight: "1 Kilo", price: 6500.0 },
+              ],
+            },
            /*  {
               id: " Yellow stone ",
               name: "Yellow stone 🤠",
