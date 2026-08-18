@@ -198,7 +198,7 @@ videos: [
                 { weight: "100g", price: 850.0 },
               ],
             }, */
-            {
+            /* {
               id: "🌌 BLUE MAGIC FROZEN 🌌",
               name: "🌌 BLUE MAGIC FROZEN 🌌",
               farm: "1st Avenue 🛩",
@@ -214,7 +214,7 @@ videos: [
                 { weight: "50g", price: 600.0 },
                 { weight: "100g", price: 1100.0 },
               ],
-            },
+            }, */
           ],
         },
         {
