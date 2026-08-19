@@ -107,6 +107,86 @@ document.addEventListener("DOMContentLoaded", function () {
       directToProducts: false,
       farms: [
         {
+          id: "Frozen Premium 160/73 🍹",
+          name: "Frozen Premium 160/73 🍹",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Súper Boof 🪔",
+              name: "Súper Boof 🪔",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductSBB.png",
+              video: "VideoSB.mp4",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "20g", price: 180.0 },
+                { weight: "50g", price: 300.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+            {
+              id: "Fantaz 🏝️",
+              name: "Fantaz 🏝️",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductF.png",
+              video: "VideoF.mp4",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "20g", price: 180.0 },
+                { weight: "50g", price: 300.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+            {
+              id: "Muel fuel ⛽",
+              name: "Muel fuel ⛽",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductMF.png",
+              video: "VideoMF.mp4",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "20g", price: 180.0 },
+                { weight: "50g", price: 300.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+            {
+              id: "Headbanger 🎧",
+              name: "Headbanger 🎧",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "ProductHB.png",
+              video: "VideoHB.mp4",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 100.0 },
+                { weight: "20g", price: 180.0 },
+                { weight: "50g", price: 300.0 },
+                { weight: "100g", price: 550.0 },
+                { weight: "500g", price: 2500.0 },
+                { weight: "1kg", price: 4500.0 },
+              ],
+            },
+          ],
+        },
+        {
           id: "VVS static premium ⚡️ ",
           name: "VVS static premium ⚡️ ",
           image: "",
