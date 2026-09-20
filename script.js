@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "",
           badgeText: "WPFF",
           products: [
-            {
+            /* {
               id: "SF_1",
               name: "🍇 Wpff 45𝐔",
               farm: "🚀 Spacefarm",
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 1200.0 },
                 { weight: "100g", price: 2100.0 },
               ],
-            },
+            }, */
           ],
         },
       ],
@@ -106,13 +106,13 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHash.png",
       directToProducts: false,
       farms: [
-        {
+       /*  {
           id: "Frozen Premium 160/73 🍹",
           name: "Frozen Premium 160/73 🍹",
           image: "",
           badgeText: "",
           products: [
-            {
+           /*  {
               id: "Súper Boof 🪔",
               name: "Súper Boof 🪔",
               farm: "👨‍🌾 VVS",
@@ -183,16 +183,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "500g", price: 2500.0 },
                 { weight: "1kg", price: 4500.0 },
               ],
-            },
+            }, 
           ],
-        },
-        {
+        }, */
+        /* {
           id: "VVS static premium ⚡️ ",
           name: "VVS static premium ⚡️ ",
           image: "",
           badgeText: "",
           products: [
-            {
+            /* {
               id: "Superboof 🍇🍉🍇🍉🍇",
               name: "Superboof 🍇🍉🍇🍉🍇",
               farm: "👨‍🌾 VVS",
@@ -208,9 +208,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 800.0 },
                 { weight: "500g", price: 3500.0 },
               ],
-            },
+            }, 
           ],
-        },
+        }, */
         /* {
           id: "Precommande",
           name: "📦 PRECOMMANDE 📦",
@@ -236,6 +236,31 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         }, */
         {
+          id: " STATIC",
+          name: "⚡️ STATIC ⚡️",
+          image: "",
+          badgeText: "STATIC",
+          products: [
+            {
+              id: "olives ",
+              name: "Olives 🔮",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductO.png",
+              videos: ["VideoO.mp4","VideoO2.mp4","VideoO3.mp4"],
+              description:
+                  "STATIC \n\n Strain disponible : \n\n Pink certz 🍊🍇⛽️ \n Peach fresca 🍑🍦 \n Moochi melon 🍈 🍇",
+              tarifs: [
+                { weight: "1 olive", price: 120.0 },
+                { weight: "Mix 3", price: 300.0 },
+                { weight: "100g", price: 850.0 },
+                { weight: "500g", price: 4000.0 },
+                { weight: "1Kg", price: 7500.0 },
+              ],
+            },
+             ],
+        },
+        {
           id: " FROZEN",
           name: "🧙‍♀️ FROZEN 🧙‍♀️",
           image: "",
@@ -259,6 +284,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "1 Kilo", price: 6500.0 },
               ],
             },
+             ],
+        },
            /*  {
               id: " Yellow stone ",
               name: "Yellow stone 🤠",
@@ -295,9 +322,8 @@ videos: [
                 { weight: "100g", price: 1100.0 },
               ],
             }, */
-          ],
-        },
-        {
+         
+       /*  {
           id: "SELECTION_1ST SEMIDRY",
           name: "SEMI-DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
           image: "",
@@ -319,14 +345,14 @@ videos: [
               ],
             },
           ],
-        },
+        }, */
          {
           id: "SELECTION_1ST",
           name: "DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
           image: "",
           badgeText: "DRY",
           products: [
-            {
+            /* {
               id: "Forbidden Zkitlles",
               name: "Forbidden Zkitlles ⛵",
               farm: "👨‍🌾 VVS",
@@ -373,7 +399,7 @@ videos: [
                 { weight: "50g", price: 350.0 },
                 { weight: "100g", price: 600.0 },
               ],
-            },
+            }, */
             {
               id: "Label vert",
               name: "Label vert 🟢",
@@ -853,7 +879,7 @@ videos: [
           image: "",
           badgeText: "Unbranded",
           products: [
-            {
+           /*  {
               id: "White Runtz",
               name: "White Runtz 🍧",
               farm: "👨‍🌾 No Farm 👨‍🌾",
@@ -886,7 +912,7 @@ videos: [
                 { weight: "100g", price: 550.0 },
                 { weight: "1 poung (448G)", price: 1900.0 },
               ],
-            },
+            }, */
           ],
         },
         {
@@ -895,7 +921,7 @@ videos: [
           image: "",
           badgeText: "",
           products: [
-            {
+           /*  {
               id: "Tropicana Cookies",
               name: "Tropicana Cookies 🍪",
               farm: "👨‍🌾 No Farm 👨‍🌾",
@@ -955,7 +981,7 @@ videos: [
                 { weight: "500g", price: 1700.0 },
                 { weight: "1kg", price: 3000.0 },
               ],
-            },
+            }, */
             /* {
               id: "Blue Berry Muffin",
               name: "Blue Berry Muffin 🫐",
@@ -994,7 +1020,7 @@ videos: [
           image: "",
           badgeText: "Grow / CaliSpain",
           products: [
-            {
+           /*  {
               id: "Amne",
               name: "Amnesia Haze 😶‍🌫🍃",
               farm: "Trapnumberz 🎸",
@@ -1008,7 +1034,7 @@ videos: [
                 { weight: "500g", price: 1400.0 },
                 { weight: "1kg", price: 2200.0 },
               ],
-            },
+            }, */
           ],
         },
         {
@@ -1017,7 +1043,7 @@ videos: [
           image: "",
           badgeText: "Grow / CaliSpain",
           products: [
-            {
+            /* {
               id: "Zkitlles",
               name: "Zkitlles 🍫",
               farm: "Trapnumberz 🎸",
@@ -1358,7 +1384,7 @@ videos: [
                 { weight: "500g", price: 2500.0 },
                 { weight: "1kg", price: 4500.0 },
               ],
-            },
+            }, */
           ],
         },
       ],
