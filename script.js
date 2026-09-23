@@ -106,13 +106,29 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHash.png",
       directToProducts: false,
       farms: [
-       /*  {
+        {
           id: "Frozen Premium 160/73 🍹",
           name: "Frozen Premium 160/73 🍹",
           image: "",
           badgeText: "",
           products: [
-           /*  {
+             {
+              id: "FF X 2️⃣4️⃣K",
+              name: "FF X 2️⃣4️⃣K",
+              farm: "👨‍🌾 VVS",
+              type: "Hash",
+              image: "Product24.png",
+              video: "Video24.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
+              ],
+            },
+             {
               id: "Súper Boof 🪔",
               name: "Súper Boof 🪔",
               farm: "👨‍🌾 VVS",
@@ -122,12 +138,10 @@ document.addEventListener("DOMContentLoaded", function () {
               description:
                   "",
               tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "20g", price: 180.0 },
-                { weight: "50g", price: 300.0 },
-                { weight: "100g", price: 550.0 },
-                { weight: "500g", price: 2500.0 },
-                { weight: "1kg", price: 4500.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
               ],
             },
             {
@@ -140,12 +154,10 @@ document.addEventListener("DOMContentLoaded", function () {
               description:
                   "",
               tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "20g", price: 180.0 },
-                { weight: "50g", price: 300.0 },
-                { weight: "100g", price: 550.0 },
-                { weight: "500g", price: 2500.0 },
-                { weight: "1kg", price: 4500.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
               ],
             },
             {
@@ -158,12 +170,10 @@ document.addEventListener("DOMContentLoaded", function () {
               description:
                   "",
               tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "20g", price: 180.0 },
-                { weight: "50g", price: 300.0 },
-                { weight: "100g", price: 550.0 },
-                { weight: "500g", price: 2500.0 },
-                { weight: "1kg", price: 4500.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
               ],
             },
             {
@@ -176,16 +186,14 @@ document.addEventListener("DOMContentLoaded", function () {
               description:
                   "",
               tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "20g", price: 180.0 },
-                { weight: "50g", price: 300.0 },
-                { weight: "100g", price: 550.0 },
-                { weight: "500g", price: 2500.0 },
-                { weight: "1kg", price: 4500.0 },
+                { weight: "10g", price: 80.0 },
+                { weight: "25g", price: 150.0 },
+                { weight: "50g", price: 250.0 },
+                { weight: "100g", price: 450.0 },
               ],
             }, 
           ],
-        }, */
+        },
         /* {
           id: "VVS static premium ⚡️ ",
           name: "VVS static premium ⚡️ ",
@@ -260,13 +268,15 @@ document.addEventListener("DOMContentLoaded", function () {
             },
              ],
         },
-        {
+        /* {
           id: " FROZEN",
           name: "🧙‍♀️ FROZEN 🧙‍♀️",
           image: "",
           badgeText: "FROZEN",
           products: [
-            {
+              ],
+        }, */
+            /* {
               id: "Plasma Frozen ",
               name: "Plasma Frozen 🔮",
               farm: "1st Avenue 🛩",
@@ -283,9 +293,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "500g", price: 3500.0 },
                 { weight: "1 Kilo", price: 6500.0 },
               ],
-            },
-             ],
-        },
+            }, */
+           
            /*  {
               id: " Yellow stone ",
               name: "Yellow stone 🤠",
