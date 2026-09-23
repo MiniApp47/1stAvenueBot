@@ -888,6 +888,54 @@ videos: [
           image: "",
           badgeText: "Unbranded",
           products: [
+            {
+              id: "Trap taffy ( Tootie Fruity ) 🥭🫐🍒",
+              name: "Trap taffy 🥭🫐🍒",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductTT.png",
+              video: "VideoTT.mov",
+              description:
+                " Tootie Fruity ",
+              tarifs: [
+                { weight: "10g", price: 150.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 650.0 },
+                { weight: "1 poung (448G)", price: 2300.0 },
+              ],
+            },
+            {
+              id: "Super gumbo 🍭🍇🍍",
+              name: "Super gumbo 🍭🍇🍍",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductSG.png",
+              video: "VideoSG.mov",
+              description:
+                "",
+              tarifs: [
+                { weight: "10g", price: 150.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 650.0 },
+                { weight: "1 poung (448G)", price: 2300.0 },
+              ],
+            },
+            {
+              id: "White slurpee 🍒🍒🍦",
+              name: "White slurpee 🍒🍒🍦",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductWS.png",
+              video: "VideoWS.mov",
+              description:
+                "White cherry gelato x Lemon cherry gelato ",
+              tarifs: [
+                { weight: "10g", price: 150.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 650.0 },
+                { weight: "1 poung (448G)", price: 2300.0 },
+              ],
+            },
            /*  {
               id: "White Runtz",
               name: "White Runtz 🍧",
