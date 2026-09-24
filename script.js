@@ -74,6 +74,22 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "",
           badgeText: "WPFF",
           products: [
+            {
+              id: "SF_1",
+              name: "🍇 Wpff 90𝐔",
+              farm: "🚀 Spacefarm",
+              type: "WPFF",
+              image: "Product9.png",
+              videos: ["Video9.mov","Video91.mov"],
+              description:
+                "WPFF SPACEFARM 90u 3rd Wash \n\n Strain Disponible : \n - Grape gaz 🍇⛽️ \n - Strawpicana 🍓🍉🍒🥧🥧\n - Superboof ❌ \n - Boujeh Bitch ❌ \n - Dulce de uva 🍇🧁",
+              tarifs: [
+                { weight: "1g", price: 50.0 },
+                { weight: "5g", price: 200.0 },
+                { weight: "10g", price: 400.0 },
+                { weight: "50g", price: 1600.0 },
+              ],
+            },
             /* {
               id: "SF_1",
               name: "🍇 Wpff 45𝐔",
@@ -1077,6 +1093,21 @@ videos: [
           image: "",
           badgeText: "Grow / CaliSpain",
           products: [
+            {
+              id: "Amne",
+              name: "Haze 😶‍🌫🍃",
+              farm: "👨‍🌾 No Farm 👨‍🌾",
+              type: "Weed",
+              image: "ProductHZ.png",
+              video: "VideoHZ.mov",
+              description:
+                "",
+              tarifs: [
+                { weight: "100g", price: 300.0 },
+                { weight: "500g", price: 1400.0 },
+                { weight: "1kg", price: 2200.0 },
+              ],
+            },
            /*  {
               id: "Amne",
               name: "Amnesia Haze 😶‍🌫🍃",
