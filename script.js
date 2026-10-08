@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWpff.png",
       directToProducts: false,
       farms: [
-        {
+        /* {
           id: "SPACEFARM",
           name: "🆂🅿🅰🅲🅴🅵🅰🆁🅼",
           image: "",
@@ -90,26 +90,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 1600.0 },
               ],
             },
-            /* {
-              id: "SF_1",
-              name: "🍇 Wpff 45𝐔",
-              farm: "🚀 Spacefarm",
-              type: "WPFF",
-              image: "Product45.png",
-              video: "Video45.mov",
-              description:
-                "Strain Disponible : Plaque de 25g \n -Strawpicana 🍉🍓🍌\n -weetie Pie 🍭🍭🥧🥧\n -Rainbow boof 🍭🍇🍇 \n\n Mix disponible à partir de 5g",
-              tarifs: [
-                { weight: "1g", price: 35.0 },
-                { weight: "5g", price: 150.0 },
-                { weight: "10g", price: 270.0 },
-                { weight: "25g", price: 525.0 },
-                { weight: "50g", price: 1200.0 },
-                { weight: "100g", price: 2100.0 },
-              ],
-            }, */
           ],
-        },
+        }, */
       ],
     },
     // --- Catégorie 1: HASH ---
@@ -122,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHash.png",
       directToProducts: false,
       farms: [
-        {
+       /*  {
           id: "Frozen Premium 160/73 🍹",
           name: "Frozen Premium 160/73 🍹",
           image: "",
@@ -209,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             }, 
           ],
-        },
+        }, */
         /* {
           id: "VVS static premium ⚡️ ",
           name: "VVS static premium ⚡️ ",
@@ -259,7 +241,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-        {
+       /*  {
           id: " STATIC",
           name: "⚡️ STATIC ⚡️",
           image: "",
@@ -283,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
              ],
-        },
+        }, */
         /* {
           id: " FROZEN",
           name: "🧙‍♀️ FROZEN 🧙‍♀️",
@@ -371,60 +353,12 @@ videos: [
             },
           ],
         }, */
-         {
+        /*  {
           id: "SELECTION_1ST",
           name: "DRY 𝔖é𝔩𝔢𝔠𝔱𝔦𝔬𝔫 1𝔰𝔱 𝔞𝔳𝔢𝔫𝔲𝔢",
           image: "",
           badgeText: "DRY",
           products: [
-            /* {
-              id: "Forbidden Zkitlles",
-              name: "Forbidden Zkitlles ⛵",
-              farm: "👨‍🌾 VVS",
-              type: "Hash",
-              image: "",
-              video: "",
-              description:
-                  "",
-              tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "25g", price: 200.0 },
-                { weight: "50g", price: 350.0 },
-                { weight: "100g", price: 600.0 },
-              ],
-            },
-            {
-              id: "Muel Fuel",
-              name: "Muel Fuel ⛽",
-              farm: "👨‍🌾 VVS",
-              type: "Hash",
-              image: "",
-              video: "",
-              description:
-                  "",
-              tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "25g", price: 200.0 },
-                { weight: "50g", price: 350.0 },
-                { weight: "100g", price: 600.0 },
-              ],
-            },
-            {
-              id: "🍎 Forbidden Fruit 🍎",
-              name: "🍎 Forbidden Fruit 🍎",
-              farm: "👨‍🌾 VVS",
-              type: "Hash",
-              image: "ProductFFF.jpg",
-              video: "VideoFFF.mp4",
-              description:
-                  "",
-              tarifs: [
-                { weight: "10g", price: 100.0 },
-                { weight: "25g", price: 200.0 },
-                { weight: "50g", price: 350.0 },
-                { weight: "100g", price: 600.0 },
-              ],
-            }, */
             {
               id: "Label vert",
               name: "Label vert 🟢",
@@ -471,7 +405,7 @@ videos: [
               ],
             },
           ],
-        },/*
+        }, *//*
         {
           id: "MOUNTAIN_MEDS",
           name: "🅼🅾🆄🅽🆃🅰🅸🅽 🅼🅴🅳🆂 🇺🇸",
@@ -898,7 +832,7 @@ videos: [
       image: "CategFleurs.png",
       directToProducts: false,
       farms: [
-         {
+        /*  {
           id: "CaliUs",
           name: "Cali US 🇺🇸",
           image: "",
@@ -985,16 +919,16 @@ videos: [
                 { weight: "100g", price: 550.0 },
                 { weight: "1 poung (448G)", price: 1900.0 },
               ],
-            }, */
+            }, 
           ],
-        },
-        {
+        }, */
+        /*{
           id: "Spali",
           name: "💃 Spali 💃",
           image: "",
           badgeText: "",
           products: [
-           /*  {
+            {
               id: "Tropicana Cookies",
               name: "Tropicana Cookies 🍪",
               farm: "👨‍🌾 No Farm 👨‍🌾",
@@ -1084,7 +1018,7 @@ videos: [
                 { weight: "500g", price: 1800.0 },
                 { weight: "1kg", price: 3500.0 },
               ],
-            }, */
+            }, 
           ],
         },
         {
@@ -1122,16 +1056,16 @@ videos: [
                 { weight: "500g", price: 1400.0 },
                 { weight: "1kg", price: 2200.0 },
               ],
-            }, */
+            }, 
           ],
-        },
-        {
+        },*/
+        /*{
           id: "Trapnumberz 🎸",
           name: "🆃🆁🅰🅿🅽🆄🅼🅱🅴🆁🆉 🇬🇧🇪🇸",
           image: "",
           badgeText: "Grow / CaliSpain",
           products: [
-            /* {
+             {
               id: "Zkitlles",
               name: "Zkitlles 🍫",
               farm: "Trapnumberz 🎸",
@@ -1472,9 +1406,9 @@ videos: [
                 { weight: "500g", price: 2500.0 },
                 { weight: "1kg", price: 4500.0 },
               ],
-            }, */
+            }, 
           ],
-        },
+        },*/
       ],
     },
   ];
