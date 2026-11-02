@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       showQR: true,
       qrImage: "QrCanal.jpg",
     },
-    {
+    /* {
       name: "CHAT TELEGRAM 🌐",
       url: "https://t.me/+jTK1EzwLogg3YjM0",
       icon: "#icon-telegram",
@@ -27,10 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "CHAT TELEGRAM 🌐",
       showQR: true,
       qrImage: "QrChat.jpg",
-    },
+    }, */
     {
       name: "SIGNAL",
-      url: "https://signal.me/#eu/JagCUeBZvx2yM2TUAh-mBKpDquHPnqo3SHoLUOBWrkZAxCR853NB37ctXUXzVlGq",
+      url: "https://signal.me/",
       icon: "#icon-signal",
       id: "signal-main",
       className: "signal",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- DONNÉES DE L'APPLICATION (V2.4 - FORMATAGE STRICT DES TARIFS) ---
   const appData = [
      // --- Catégorie 3: WPFF ---
-    {
+   /*  {
       id: "WPFF",
       name: " 💎 Wpff 💎",
       farm: "",
@@ -91,9 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        }, */
+        }, 
       ],
-    },
+    }, */
     // --- Catégorie 1: HASH ---
     {
       id: "HASH",
@@ -103,7 +103,103 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: " 🍪 Hash 🍪",
       image: "CategHash.png",
       directToProducts: false,
-      farms: [
+      farms: [ 
+        {
+          id: " Premium Plasma static",
+          name: "⚡️ PREMIUM PLASMA STATIC ⚡️",
+          image: "",
+          badgeText: "PLASMA",
+          products: [
+            {
+              id: "Calippo ",
+              name: "🍹 Calippo 🍹",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductC.png",
+              video: "VideoC.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "1Og", price: 120.0 },
+                { weight: "25g", price: 280.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 750.0 },
+              ],
+            },
+            {
+              id: "Forbidden Fruit x Peach Fresca ",
+              name: "Forbidden Fruit x Peach Fresca 🍑",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductFF.png",
+              video: "VideoFF.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "1Og", price: 120.0 },
+                { weight: "25g", price: 280.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 750.0 },
+              ],
+            },
+            {
+              id: "Yellow melon ",
+              name: "Yellow melon 🍈",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductYM.png",
+              video: "VideoYM.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "1Og", price: 120.0 },
+                { weight: "25g", price: 280.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 750.0 },
+              ],
+            },
+            {
+              id: "Mango Cream ",
+              name: "🥭 Mango Cream 🍨",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductMC.png",
+              video: "VideoMC.mov",
+              description:
+                  "",
+              tarifs: [
+                { weight: "1Og", price: 120.0 },
+                { weight: "25g", price: 280.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 750.0 },
+              ],
+            },
+          ],
+        },
+        {
+          id: " STATIC SUPERBOOF",
+          name: "⚡️ STATIC SUPERBOOF ⚡️",
+          image: "",
+          badgeText: "STATIC",
+          products: [
+            {
+              id: "Stasuperbooftik ",
+              name: "SuperBoof 🍰",
+              farm: "1st Avenue 🛩",
+              type: "Hash",
+              image: "ProductSB.png",
+              video: "VideoSB.mov",
+              description:
+                  "",              
+              tarifs: [
+                { weight: "1Og", price: 120.0 },
+                { weight: "25g", price: 300.0 },
+                { weight: "50g", price: 550.0 },
+                { weight: "100g", price: 850.0 },
+              ],
+            },
+             ],
+        },
        /*  {
           id: "Frozen Premium 160/73 🍹",
           name: "Frozen Premium 160/73 🍹",
@@ -823,7 +919,7 @@ videos: [
     },
 
     // --- Catégorie 2: FLEURS ---
-    {
+   /*  {
       id: "FLEURS",
       name: " 🪴 Fleurs 🪴",
       farm: "",
@@ -1408,9 +1504,9 @@ videos: [
               ],
             }, 
           ],
-        },*/
+        },
       ],
-    },
+    }, */
   ];
 
   // --- VARIABLES D'ÉTAT ---
