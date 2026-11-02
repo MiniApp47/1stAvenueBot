@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, */
     {
       name: "SIGNAL",
-      url: "https://signal.me/",
+      url: "https://signal.me/#eu/u0YwB1IPnEV4-_hYbaBU9VPvw6H7gvjCFYw3bSKH8kYCsaMIORxAoYZwUW1-OgEj",
       icon: "#icon-signal",
       id: "signal-main",
       className: "signal",
